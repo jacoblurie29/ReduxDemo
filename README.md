@@ -5,7 +5,7 @@ Demo of React state and Redux state for identical todo lists
 
 ## How to use:
 1. Clone repository
-2. cd into the client folder
-3. run "npm install" in the command line
-4. run "npm start" in the command line
-5. view in your browers at localhost:3000
+2. Change directory into the client folder
+3. Run "npm install" in the command line
+4. Run "npm start" in the command line
+5. View in your brower at localhost:3000
