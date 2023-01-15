@@ -8,4 +8,4 @@ Demo of React state and Redux state for identical todo lists
 2. cd into the client folder
 3. run "npm install" in the command line
 4. run "npm start" in the command line
-
+5. view in your browers at localhost:3000
