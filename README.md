@@ -1,4 +1,4 @@
-<img width="616" alt="Screen Shot 2023-01-15 at 12 07 16 PM" src="https://user-images.githubusercontent.com/19592236/212558881-1017c4c0-4c3e-4c30-8b6b-460b6559c78d.png">
+<img width="755" alt="Screen Shot 2023-01-15 at 12 14 22 PM" src="https://user-images.githubusercontent.com/19592236/212559261-218f084c-4eb5-4bb8-958e-af9a8492e7c7.png">
 
 # ReduxDemo
 Demo of React state and Redux state for identical todo lists
