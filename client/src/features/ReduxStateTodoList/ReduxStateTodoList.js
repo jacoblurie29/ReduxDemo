@@ -19,6 +19,8 @@ function ReduxStateTodoList() {
 
   const handleAddTodo = () => {
     dispatch(addToList({ value: newValue, completed: false }));
+
+    // for debug purposes only
     console.table([...list, { value: newValue, completed: false }]);
   };
 
@@ -28,6 +30,11 @@ function ReduxStateTodoList() {
 
   const handleDelete = (index) => {
     dispatch(deleteFromList(index));
+
+    // for debug purposes only
+    let newList = [...list];
+    newList.splice(index, 1);
+    console.table(newList);
   };
 
   return (

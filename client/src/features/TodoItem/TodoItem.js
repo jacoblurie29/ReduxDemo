@@ -14,7 +14,7 @@ function TodoItem({
         id={cssType + "item" + index}
         name={cssType + "item" + index}
         type="checkbox"
-        defaultValue={todoItem.completed}
+        checked={todoItem.completed}
         onChange={() => handleChangeCompleted(index)}
       />
       <label htmlFor={cssType + "item" + index} className="todoItem-label">

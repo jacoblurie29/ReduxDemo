@@ -13,6 +13,8 @@ function ReactStateTodoList() {
   const handleAddTodo = () => {
     setItems([...items, { value: newItem, completed: false }]);
     setNewItem("");
+
+    // for debug purposes only
     console.table([...items, newItem]);
   };
 
@@ -26,6 +28,9 @@ function ReactStateTodoList() {
     let newItems = [...items];
     newItems.splice(index, 1);
     setItems(newItems);
+
+    // for debug purposes only
+    console.table(newItems);
   };
 
   return (
