@@ -48,7 +48,7 @@ function ReduxStateTodoList() {
           handleChangeCompleted={handleChangeCompleted}
           handleDelete={handleDelete}
           key={index}
-          cssType={"redux"}
+          stateType={"redux"}
         />
       ))}
 

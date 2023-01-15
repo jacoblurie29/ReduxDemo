@@ -5,19 +5,19 @@ function TodoItem({
   index,
   handleChangeCompleted,
   handleDelete,
-  cssType,
+  stateType,
 }) {
   return (
     <div className="todoItem-main">
       <input
         className="todoItem-checkbox"
-        id={cssType + "item" + index}
-        name={cssType + "item" + index}
+        id={stateType + "item" + index}
+        name={stateType + "item" + index}
         type="checkbox"
         checked={todoItem.completed}
         onChange={() => handleChangeCompleted(index)}
       />
-      <label htmlFor={cssType + "item" + index} className="todoItem-label">
+      <label htmlFor={stateType + "item" + index} className="todoItem-label">
         <span className="todoItem-labelText">{todoItem.value}</span>
       </label>
 

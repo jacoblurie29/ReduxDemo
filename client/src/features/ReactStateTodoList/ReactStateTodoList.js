@@ -44,7 +44,7 @@ function ReactStateTodoList() {
           handleChangeCompleted={handleChangeCompleted}
           handleDelete={handleDelete}
           key={index}
-          cssType={"react"}
+          stateType={"react"}
         />
       ))}
 
